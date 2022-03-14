@@ -56,6 +56,9 @@ const dreamGirl = [
   ];
 const friends = dreamGirl[0].dream1.contactInfo[0].facebook.friendsList
 console.log(friends);
+const fndName = []
 for(const friend of friends){
-    console.log(friend);
+    const names = friend.name 
+    fndName.push(names)
 }
+console.log(fndName);
